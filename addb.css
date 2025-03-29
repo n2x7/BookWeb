@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    background-color: #3d2b8a;
+}
+.bar {
+    background-color: #5e00b1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+form {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form div {
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input{
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form button {
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #23a125;
+}
+.main{
+    margin-left: 34rem;
+    width: 29%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15rem;
+    cursor: pointer;
+}
+
+.bun{
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e00b1;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}

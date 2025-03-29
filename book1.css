@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d2b8a;
+}
+.bar {
+    background-color: #5e00b1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+h1{
+    margin-left: 9rem;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.container {
+    margin: 0px 8rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book-card {
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.book-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+.book-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.book-card p {
+    margin: 5px 0;
+    color: #333;
+}
+.author{
+    font-size: 12px;
+}
+.price{
+    font-weight: bold;
+    
+}
+a{
+    all:unset;
+}
+button.edit{
+    all: unset;
+    border-radius: 5px;
+    border: 1px solid slateblue;
+    margin:10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: #26b100;
+    color: #ffffff;
+    cursor: pointer;
+}
+button.del{
+    all: unset;
+    border-radius: 5px;
+    border: 1px solid slateblue;
+    margin:10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: #b30b0b;
+    color: #ffffff;
+    cursor: pointer;
+}
+button:hover{
+    all: unset;
+    border-radius: 5px;
+    border: 1px solid slateblue;
+    margin:10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #5e00b1;
+    cursor: pointer;
+}
+.exit{
+    cursor: pointer;
+    position: relative;
+    margin: 0% 90%;
+}
+.plus{
+    cursor: pointer;
+    position: relative;
+    margin: 0% 10%;
+}
+
+.footer {
+    overflow: hidden;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e00b1;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}

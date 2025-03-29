@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Book</title>
+    <link rel="stylesheet" href="addb.css">
+</head>
+<body>
+<nav class="bar">
+        <section class="logo">
+            NamYoKo
+        </section>
+    </nav>
+
+    <h2>Add New Book</h2>
+    <form action="addb.php" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="title">Book Title:</label>
+            <input type="text" name="bName" id="bName" required>
+        </div>
+        <div>
+            <label for="author">Author:</label>
+            <input type="text" name="bAuthor" id="bAuthor" required>
+        </div>
+        <div>
+            <label for="bCover">Cover Image:</label>
+            <input type="file" name="bCover" id="bCover" required>
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            <input type="number" step="0.01" name="bPrice" id="bPrice" required>
+        </div>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <div class="footer">
+        <p>
+            © 2024 NamYoKo. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
